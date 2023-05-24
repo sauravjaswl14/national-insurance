@@ -11,3 +11,45 @@
 #about {
   background-image: url(./img/vector2.jpg);
 }
+
+#footer {
+  background-image: url(https://demo.casethemes.net/alico/wp-content/uploads/2022/10/h7-bg-footer.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+li > ul {
+  transform: translatex(100%) scale(0);
+}
+
+li:hover > ul {
+  transform: translatex(101%) scale(1);
+}
+
+li > button svg {
+  transform: rotate(-90deg);
+}
+
+li:hover > button svg {
+  transform: rotate(-270deg);
+}
+/* 
+#about {
+  background-image: url(./img/natalya-zaritskaya-SIOdjcYotms-unsplash.jpg);
+  background-color: linear-gradient(
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0)
+  );
+} */
+
+#about2 {
+  background-image: url(./img/banner.jpg);
+  background-position: center;
+  background-size: contain;
+}
+
+.gradient-bg {
+  background-color: #70b2d9;
+  background-image: linear-gradient(315deg, #70b2d9 0%, #39e5b6 74%);
+}
