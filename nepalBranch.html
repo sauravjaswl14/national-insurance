@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Branches</title>
+  </head>
+  <body>
+    <section class="mb-10">
+      <nav class="sticky top-0 z-30">
+        <div class="flex justify-around py-8 px-4 bg-white shadow-xl">
+          <div class="flex space-x-20">
+            <div>
+              <img src="./img/logo.jpg" alt="" />
+            </div>
+            <div class="hidden lg:flex items-center lg:space-x-6">
+              <!--  -->
+              <a
+                href="index.html"
+                class="font-semibold border-b-2 border-sky-500 border-spacing-0 focus:border-b-2 focus:border-cyan-500 focus:text-cyan-500"
+                >Home</a
+              >
+              <!--  -->
+              <div class="group inline-block">
+                <button
+                  aria-haspopup="true"
+                  aria-controls="menu"
+                  class="outline-none focus:outline-none px-3 py-1 bg-white rounded-sm flex items-center min-w-32"
+                >
+                  <span class="pr-1 font-semibold flex-1">About</span>
+                  <span>
+                    <svg
+                      class="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+                <ul
+                  id="menu"
+                  aria-hidden="true"
+                  class="flex flex-col space-y-6 bg-white border p-4 rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32"
+                >
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                    <a href="ceoMessage.html">Message from CEO</a>
+                  </li>
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                    <a href="hod.html">HOD</a>
+                  </li>
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                    <a href="missionVision.html">Mission and Vision</a>
+                  </li>
+                  <li class="rounded-sm relative px-3 py-1 hover:bg-gray-100">
+                    <button
+                      aria-haspopup="true"
+                      aria-controls="menu-lang"
+                      class="w-full text-left flex items-center outline-none focus:outline-none"
+                    >
+                      <span class="pr-1 flex-1">Executive</span>
+                      <span class="mr-auto">
+                        <svg
+                          class="fill-current h-4 w-4 transition duration-150 ease-in-out"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 20 20"
+                        >
+                          <path
+                            d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                    <ul
+                      id="menu-lang"
+                      aria-hidden="true"
+                      class="flex flex-col space-y-6 bg-white p-8 border rounded-sm absolute top-0 right-0 transition duration-150 ease-in-out origin-top-left min-w-32"
+                    >
+                      <li class="px-3 py-1 hover:bg-gray-100">
+                        <a href="deputyCeo.html"> Deputy CEO</a>
+                      </li>
+                      <li
+                        class="rounded-sm relative px-3 py-1 hover:bg-gray-100"
+                      >
+                        <button
+                          aria-haspopup="true"
+                          class="w-full text-left flex items-center outline-none focus:outline-none"
+                        >
+                          <span class="pr-1 flex-1"
+                            ><a href="management.html">Management</a>
+                          </span>
+                          <span class="mr-auto">
+                            <svg
+                              class="fill-current h-4 w-4 transition duration-150 ease-in-out"
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 20 20"
+                            >
+                              <path
+                                d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                              />
+                            </svg>
+                          </span>
+                        </button>
+                        <ul
+                          id="menu-lang-python"
+                          aria-hidden="true"
+                          class="bg-white border rounded-sm absolute top-0 right-0 transition duration-150 ease-in-out origin-top-left min-w-48"
+                        >
+                          <li class="px-6 py-3 hover:bg-gray-100">
+                            <a href=""></a> Corporate Management
+                          </li>
+                          <li class="px-6 py-3 hover:bg-gray-100">
+                            <a href=""></a> Local Management Committee
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                    Objectives
+                  </li>
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">Values</li>
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                    Key person
+                  </li>
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                    Nepal Management Committee
+                  </li>
+
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                    <a href="surveyors.html">Agents/Surveyor</a>
+                  </li>
+                </ul>
+              </div>
+
+              <!--  -->
+              <div class="group inline-block">
+                <button
+                  aria-haspopup="true"
+                  aria-controls="menu"
+                  class="outline-none focus:outline-none px-3 py-1 bg-white rounded-sm flex items-center min-w-32"
+                >
+                  <span class="pr-1 font-semibold flex-1">Insurance</span>
+                  <span>
+                    <svg
+                      class="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+                <ul
+                  id="menu"
+                  aria-hidden="true"
+                  class="flex flex-col space-y-6 bg-white border p-8 rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32"
+                >
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                    Motor Insurance
+                  </li>
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                    Health Insurance
+                  </li>
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                    Fire Insurance
+                  </li>
+                </ul>
+              </div>
+
+              <!--  -->
+              <div class="group inline-block">
+                <button
+                  aria-haspopup="true"
+                  aria-controls="menu"
+                  class="outline-none focus:outline-none px-3 py-1 bg-white rounded-sm flex items-center min-w-32"
+                >
+                  <span class="pr-1 font-semibold flex-1">Download</span>
+                  <span>
+                    <svg
+                      class="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+                <ul
+                  id="menu"
+                  aria-hidden="true"
+                  class="flex flex-col space-y-6 bg-white border p-8 rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32"
+                >
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                    Claim Estimation Form
+                  </li>
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                    Financial Reports
+                  </li>
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                    Kyc Form
+                  </li>
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                    Proposal Forms
+                  </li>
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">Tender</li>
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">Other</li>
+                </ul>
+              </div>
+
+              <!--  -->
+              <div class="group inline-block">
+                <button
+                  aria-haspopup="true"
+                  aria-controls="menu"
+                  class="outline-none focus:outline-none px-3 py-1 bg-white rounded-sm flex items-center min-w-32"
+                >
+                  <span class="pr-1 font-semibold flex-1"
+                    >Premium Calculator</span
+                  >
+                  <span>
+                    <svg
+                      class="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+                <ul
+                  id="menu"
+                  aria-hidden="true"
+                  class="flex flex-col space-y-6 bg-white border p-8 rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32"
+                >
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                    Motor Premium Calculator
+                  </li>
+                </ul>
+              </div>
+
+              <!--  -->
+              <div class="group inline-block">
+                <button
+                  aria-haspopup="true"
+                  aria-controls="menu"
+                  class="outline-none focus:outline-none px-3 py-1 bg-white rounded-sm flex items-center min-w-32"
+                >
+                  <span class="pr-1 font-semibold flex-1">Contact</span>
+                  <span>
+                    <svg
+                      class="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+                <ul
+                  id="menu"
+                  aria-hidden="true"
+                  class="flex flex-col space-y-6 bg-white border p-8 rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32"
+                >
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                    Information Officer
+                  </li>
+
+                  <li class="rounded-sm relative px-3 py-1 hover:bg-gray-100">
+                    <button
+                      aria-haspopup="true"
+                      class="w-full text-left flex items-center outline-none focus:outline-none"
+                    >
+                      <span class="pr-1 flex-1">Branches</span>
+                      <span class="mr-auto">
+                        <svg
+                          class="fill-current h-4 w-4 transition duration-150 ease-in-out"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 20 20"
+                        >
+                          <path
+                            d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                    <ul
+                      id="menu-lang-python"
+                      aria-hidden="true"
+                      class="bg-white border rounded-sm absolute top-0 right-0 transition duration-150 ease-in-out origin-top-left min-w-48"
+                    >
+                      <li class="px-6 py-3 hover:bg-gray-100">
+                        Kathmandu Branch
+                      </li>
+                      <li class="px-6 py-3 hover:bg-gray-100">India Branch</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+
+              <!--  -->
+              <a href="#" class="font-semibold">Career</a>
+            </div>
+          </div>
+
+          <div class="flex items-center space-x-6">
+            <div class="border-r-2 p-4">
+              <img src="./img/nepal.png" class="w-8 h-8" alt="" />
+            </div>
+
+            <div>
+              <img src="./img/india.png" class="w-8 h-8" alt="" />
+            </div>
+          </div>
+          <div class="hidden lg:flex lg:space-x-8 items-center">
+            <img src="./img/search.png" class="w-6 h-6" alt="" />
+            <img src="./img/menu.png" class="w-6 h-6" alt="" />
+          </div>
+        </div>
+      </nav>
+      <div
+        class="relative overflow-hidden bg-no-repeat bg-cover"
+        style="
+          background-position: 50%;
+          background-image: url('./img/umbrella2.jpg');
+          background-size: cover;
+          height: 500px;
+        "
+      >
+        <div
+          class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
+          style="background-color: rgba(0, 0, 0, 0.75)"
+        >
+          <div class="flex justify-center items-center h-full">
+            <div class="text-white px-6 md:px-12">
+              <div
+                class="absolute bottom-4 left-6 bg-[#6B7078] p-4 px-8 rounded-xl"
+              >
+                <div class="flex flex-col space-y-6">
+                  <p class="text-white text-4xl font-bold">Our Branches</p>
+                  <div class="flex items-center space-x-4">
+                    <p class="text-white text-xl font-semibold">Contact</p>
+                    <div class="w-4 h-4 rounded-full bg-[#34DA89]"></div>
+                    <p class="text-white text-xl font-semibold">
+                      Kathmandu Branch
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div
+        class="m-10 flex flex-col space-y-4 xl:space-y-0 xl:flex-row xl:space-x-8"
+      >
+        <img src="./img/4.jpg" class="w-1/2 rounded-2xl" alt="" />
+
+        <!-- Text Container -->
+        <div class="w-1/2 flex flex-col space-y-6">
+          <h2 class="text-4xl font-bold text-[#002A5C]">
+            Assist customers with arriving at the objectives.
+          </h2>
+          <p class="text-lg text-[#002A5C]">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered.
+          </p>
+
+          <div
+            class="flex flex-col items-center space-y-4 border-b-2 pb-4 lg:space-y-0 lg:flex-row lg:space-x-4"
+          >
+            <div class="py-4 px-3 w-80 bg-[#002a5c] rounded-xl">
+              <div class="flex justify-center items-center flex-col space-y-4">
+                <p class="text-[#34DA89] font-bold text-2xl">25+</p>
+                <p class="text-white text-center text-lg">Years Experience</p>
+              </div>
+            </div>
+            <p class="text-[#6B7078] max-w-4xl">
+              Long established fact that reader will be distracted the readable
+              of pages when looking at its layout
+            </p>
+          </div>
+
+          <div
+            class="flex flex-col space-y-4 items-center xl:space-y-0 xl:flex-row xl:space-x-6"
+          >
+            <div class="flex space-x-4">
+              <div
+                class="flex justify-center items-center w-10 h-10 bg-[#4A83FD] rounded-full"
+              >
+                <img src="./img/facebook.png" class="w-5 h-5" alt="" />
+              </div>
+              <div
+                class="flex justify-center items-center w-10 h-10 bg-[#4A83FD] rounded-full"
+              >
+                <img src="./img/twitter (1).png" class="w-5 h-5" alt="" />
+              </div>
+              <div
+                class="flex justify-center items-center w-10 h-10 bg-[#4A83FD] rounded-full"
+              >
+                <img src="./img/instagram.png" class="w-5 h-5" alt="" />
+              </div>
+              <div
+                class="flex justify-center items-center w-10 h-10 bg-[#4A83FD] rounded-full"
+              >
+                <img src="./img/linkedin1.png" class="w-5 h-5" alt="" />
+              </div>
+            </div>
+
+            <button
+              class="text-white uppercase font-semibold py-3 px-5 w-44 bg-[#34DA89]"
+            >
+              Read More
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="m-10">
+        <h3 class="text-[#002A5C] text-4xl font-bold mb-4">Our Services</h3>
+        <div
+          class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+        >
+          <!--  -->
+          <div
+            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+          >
+            <a href="#">
+              <img
+                class="rounded-t-lg"
+                src="https://en.nepalinsurance.com/images/policy/2c957fa892ad12e6256a712a4423124a.jpg"
+                alt=""
+              />
+            </a>
+            <div class="p-5">
+              <a href="#">
+                <h5
+                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                  Motor Vehicle Insurance
+                </h5>
+              </a>
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                Here are the biggest enterprise technology acquisitions of 2021
+                so far, in reverse chronological order.
+              </p>
+              <a
+                href="#"
+                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              >
+                Read more
+                <svg
+                  aria-hidden="true"
+                  class="w-4 h-4 ml-2 -mr-1"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!--  -->
+          <div
+            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+          >
+            <a href="#">
+              <img
+                class="rounded-t-lg"
+                src="https://media.istockphoto.com/id/1333428875/photo/fire-insurance-concept-burning-small-wooden-house.jpg?s=612x612&w=0&k=20&c=eri3sWqqRhMaJfh81nrVmaS4hVrW4-9K7eTexu3eY9s="
+                alt=""
+              />
+            </a>
+            <div class="p-5">
+              <a href="#">
+                <h5
+                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                  Fire and Property Insurance
+                </h5>
+              </a>
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                Here are the biggest enterprise technology acquisitions of 2021
+                so far, in reverse chronological order.
+              </p>
+              <a
+                href="#"
+                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              >
+                Read more
+                <svg
+                  aria-hidden="true"
+                  class="w-4 h-4 ml-2 -mr-1"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!--  -->
+          <div
+            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+          >
+            <a href="#">
+              <img
+                class="rounded-t-lg"
+                src="./img/engineeringInsur.jpg"
+                alt=""
+              />
+            </a>
+            <div class="p-5">
+              <a href="#">
+                <h5
+                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                  Engineering Insurance
+                </h5>
+              </a>
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                Here are the biggest enterprise technology acquisitions of 2021
+                so far, in reverse chronological order.
+              </p>
+              <a
+                href="#"
+                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              >
+                Read more
+                <svg
+                  aria-hidden="true"
+                  class="w-4 h-4 ml-2 -mr-1"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!--  -->
+          <div
+            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+          >
+            <a href="#">
+              <img
+                class="rounded-t-lg h-1/2"
+                src="https://sme.icicilombard.com/assetsSME/images/marine_whatinclude_new.webp"
+                alt=""
+              />
+            </a>
+            <div class="p-5">
+              <a href="#">
+                <h5
+                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                  Marine Insurance
+                </h5>
+              </a>
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                Here are the biggest enterprise technology acquisitions of 2021
+                so far, in reverse chronological order.
+              </p>
+              <a
+                href="#"
+                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              >
+                Read more
+                <svg
+                  aria-hidden="true"
+                  class="w-4 h-4 ml-2 -mr-1"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!--  -->
+          <div
+            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+          >
+            <a href="#">
+              <img class="rounded-t-lg" src="./img/aviation.jpg" alt="" />
+            </a>
+            <div class="p-5">
+              <a href="#">
+                <h5
+                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                  Aviation Business
+                </h5>
+              </a>
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                Here are the biggest enterprise technology acquisitions of 2021
+                so far, in reverse chronological order.
+              </p>
+              <a
+                href="#"
+                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              >
+                Read more
+                <svg
+                  aria-hidden="true"
+                  class="w-4 h-4 ml-2 -mr-1"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!--  -->
+          <div
+            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+          >
+            <a href="#">
+              <img
+                class="rounded-t-lg h-[40%] w-full"
+                src="./img/miscel.jpg"
+                alt=""
+              />
+            </a>
+            <div class="p-5">
+              <a href="#">
+                <h5
+                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                  Miscellaneous insurance
+                </h5>
+              </a>
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                Here are the biggest enterprise technology acquisitions of 2021
+                so far, in reverse chronological order.
+              </p>
+              <a
+                href="#"
+                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              >
+                Read more
+                <svg
+                  aria-hidden="true"
+                  class="w-4 h-4 ml-2 -mr-1"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!--  -->
+          <div
+            class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+          >
+            <a href="#">
+              <img class="rounded-t-lg" src="./img/rural insur.jpg" alt="" />
+            </a>
+            <div class="p-5">
+              <a href="#">
+                <h5
+                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                  Rural Insurance
+                </h5>
+              </a>
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                Here are the biggest enterprise technology acquisitions of 2021
+                so far, in reverse chronological order.
+              </p>
+              <a
+                href="#"
+                class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              >
+                Read more
+                <svg
+                  aria-hidden="true"
+                  class="w-4 h-4 ml-2 -mr-1"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="m-10">
+        <div
+          class="flex flex-col-reverse space-y-4 items-center justify-between lg:space-y-0 lg:flex-row lg:space-x-28"
+        >
+          <div class="w-1/3">
+            <div class="flex flex-col space-y-6">
+              <h2 class="text-[#1c1d1e] text-4xl font-bold">
+                We're here to help
+              </h2>
+              <p class="text-xl text-[#747474]">
+                Fill out the form or call 9876543210
+              </p>
+            </div>
+            <form class="mt-4 flex flex-col space-y-16">
+              <input
+                type="text"
+                placeholder="Name"
+                class="block outline-none py-2 px-4 border-b-2 border-b-[#1c1d1e] focus:border-t-2 focus:border-t-gray-200 focus:border-l-2 focus:border-l-gray-200 focus:border-r-2 focus:border-r-gray-200"
+              />
+
+              <input
+                type="email"
+                placeholder="Email"
+                class="block outline-none py-2 px-4 border-b-2 border-b-[#1c1d1e] focus:border-t-2 focus:border-t-gray-200 focus:border-l-2 focus:border-l-gray-200 focus:border-r-2 focus:border-r-gray-200"
+              />
+
+              <input
+                type="text"
+                placeholder="Subject"
+                class="block outline-none py-2 px-4 border-b-2 border-b-[#1c1d1e] focus:border-t-2 focus:border-t-gray-200 focus:border-l-2 focus:border-l-gray-200 focus:border-r-2 focus:border-r-gray-200"
+              />
+
+              <textarea
+                placeholder="Message"
+                class="block outline-none py-2 px-4 border-b-2 border-b-[#1c1d1e] focus:border-t-2 focus:border-t-gray-200 focus:border-l-2 focus:border-l-gray-200 focus:border-r-2 focus:border-r-gray-200"
+              ></textarea>
+
+              <button
+                type="submit"
+                class="text-white bg-black font-semibold py-2 px-5 rounded-full"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+          <div>
+            <img
+              src="./img/Umbrella-C.jpg"
+              class="w-[70%] rounded-2xl"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="mx-20 mb-4">
+        <div class="grid grid-cols-1 md:grid-cols-2">
+          <div class="flex flex-col h-[600px]">
+            <div>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.7652227822314!2d85.31118380983915!3d27.69365032599837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19ad551cde19%3A0x84ac787ee3f2610a!2sNational%20Insurance%20Company%20Limited!5e0!3m2!1sen!2snp!4v1685872014893!5m2!1sen!2snp"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <div class="w-[600px] h-[450px] py-4 px-5 bg-[#f4f4f4]">
+              <div class="flex flex-col space-y-4">
+                <p class="text-[#1c1d1e]">Kathmandu</p>
+
+                <div class="flex flex-col space-y-2">
+                  <p class="text-lg text-[#747474]">2nd Floor KKM Building</p>
+                  <p class="text-lg text-[#747474]">Tripureshwar P.O Box:376</p>
+                </div>
+                <div class="flex flex-col space-y-2">
+                  <p class="text-lg text-[#747474]">info@nicnepal.com.np</p>
+                  <p class="text-lg text-[#747474]">
+                    0977-1-4260366 / 4250710 / 4254045
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex flex-col h-[600px]">
+            <div>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.7652227822314!2d85.31118380983915!3d27.69365032599837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19ad551cde19%3A0x84ac787ee3f2610a!2sNational%20Insurance%20Company%20Limited!5e0!3m2!1sen!2snp!4v1685872014893!5m2!1sen!2snp"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <div class="w-[600px] h-[450px] py-4 px-5 bg-[#f4f4f4]">
+              <div class="flex flex-col space-y-4">
+                <p class="text-[#1c1d1e]">Kathmandu</p>
+
+                <div class="flex flex-col space-y-2">
+                  <p class="text-lg text-[#747474]">
+                    3rd Floor 66 Queen Street
+                  </p>
+                  <p class="text-lg text-[#747474]">BROOK VALE NSW 2100</p>
+                </div>
+                <div class="flex flex-col space-y-2">
+                  <p class="text-lg text-[#747474]">amsterdam@email.com</p>
+                  <p class="text-lg text-[#747474]">+51853458243</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="w-full mt-20">
+      <div class="p-10 lg:py-12 lg:px-20 text-white">
+        <div
+          class="flex flex-col space-y-12 items-center justify-center xl:space-y-0 xl:flex-row xl:space-x-12"
+        >
+          <!-- logo and newsletter -->
+          <div class="flex flex-col space-y-12 md:flex-row md:space-x-12">
+            <!-- logo -->
+            <div class="flex flex-col space-y-6">
+              <div>
+                <img src="./img/logo.jpg" alt="" />
+              </div>
+
+              <p class="font-semibold text-xl max-w-sm">
+                National Insurance Company is one of the leading public sector
+                non life insurance companies of India, Headquartered in Kolkata,
+                NIC’s foreign operation is carried out through its branch office
+                in Nepal.
+              </p>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="flex flex-col space-y-6">
+              <p class="text-xl font-bold">Newsletter</p>
+
+              <p class="max-w-sm text-lg font-semibold">
+                Subscribe our newsletter to get our latest update & news
+              </p>
+
+              <div class="flex">
+                <div>
+                  <input
+                    type="text"
+                    class="py-3 px-5"
+                    placeholder="Your mail address"
+                  />
+                </div>
+                <div
+                  class="flex justify-center items-center w-12 h-12 bg-[#138F82]"
+                >
+                  <img src="./img/telegram.png" class="w-8 h-8" alt="" />
+                </div>
+              </div>
+
+              <div class="flex items-center space-x-8">
+                <img src="./img/facebook.png" class="w-10 h-10" alt="" />
+                <img src="./img/twitter.png" class="w-10 h-10" alt="" />
+                <img src="./img/instagram.png" class="w-10 h-10" alt="" />
+                <img src="./img/linkedin.png" class="w-10 h-10" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <!-- social -->
+          <div
+            class="flex flex-col space-y-12 md:space-y-0 md:flex-row md:space-x-12"
+          >
+            <div class="flex flex-col space-y-6">
+              <p class="text-xl font-bold">Official info:</p>
+
+              <div class="flex flex-col space-y-6">
+                <div class="flex space-x-4">
+                  <img src="./img/location-pin.png" class="w-8 h-8" alt="" />
+                  <p class="max-w-sm text-lg">
+                    KKM Building (2nd Floor), P.O Box: 376, Tripureshwor,
+                    Kathmandu, Nepal
+                  </p>
+                </div>
+                <div class="flex space-x-4">
+                  <img src="./img/call.png" class="w-8 h-8" alt="" />
+                  <p class="max-w-sm text-lg">1-888-452-1505</p>
+                </div>
+                <p class="max-w-xs pl-12">
+                  Sun-Fri 8am - 5pm, <br />
+                  Saturday: CLOSED
+                </p>
+              </div>
+            </div>
+
+            <!-- instagram -->
+            <div class="flex flex-col space-y-6">
+              <p class="text-xl font-bold">Instagram</p>
+
+              <div class="grid grid-cols-3">
+                <div class="w-32">
+                  <img src="./img/1.jpg" class="w-full" alt="" />
+                </div>
+                <div class="w-32">
+                  <img src="./img/2.jpg" class="w-full" alt="" />
+                </div>
+                <div class="w-32">
+                  <img src="./img/3.jpg" class="w-full" alt="" />
+                </div>
+                <div class="w-32">
+                  <img src="./img/4.jpg" class="w-full" alt="" />
+                </div>
+                <div class="w-32">
+                  <img src="./img/5.jpg" class="w-full" alt="" />
+                </div>
+                <div class="w-32">
+                  <img src="./img/6.jpg" class="w-full" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
