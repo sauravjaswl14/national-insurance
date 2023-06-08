@@ -550,13 +550,13 @@ video {
   }
 }
 
-@media (min-width: 976px) {
+@media (min-width: 1024px) {
   .\!container {
-    max-width: 976px !important;
+    max-width: 1024px !important;
   }
 
   .container {
-    max-width: 976px;
+    max-width: 1024px;
   }
 }
 
@@ -663,10 +663,6 @@ video {
 
 .-bottom-\[47px\] {
   bottom: -47px;
-}
-
-.-left-20 {
-  left: -5rem;
 }
 
 .-left-\[15px\] {
@@ -801,10 +797,6 @@ video {
   top: 1.5rem;
 }
 
-.top-\[100px\] {
-  top: 100px;
-}
-
 .top-\[11px\] {
   top: 11px;
 }
@@ -827,10 +819,6 @@ video {
 
 .z-30 {
   z-index: 30;
-}
-
-.z-40 {
-  z-index: 40;
 }
 
 .z-50 {
@@ -2826,11 +2814,6 @@ video {
 .rounded-r-\[0\.25rem\] {
   border-top-right-radius: 0.25rem;
   border-bottom-right-radius: 0.25rem;
-}
-
-.rounded-r-full {
-  border-top-right-radius: 9999px;
-  border-bottom-right-radius: 9999px;
 }
 
 .rounded-s {
@@ -4874,9 +4857,9 @@ li:hover > button svg {
     }
   }
 
-  @media (min-width: 976px) {
+  @media (min-width: 1024px) {
     .sm\:container {
-      max-width: 976px;
+      max-width: 1024px;
     }
   }
 
@@ -6302,9 +6285,17 @@ li:hover > button svg {
   }
 }
 
-@media (min-width: 976px) {
+@media (min-width: 1024px) {
   .lg\:absolute {
     position: absolute;
+  }
+
+  .lg\:-left-12 {
+    left: -3rem;
+  }
+
+  .lg\:bottom-0 {
+    bottom: 0px;
   }
 
   .lg\:top-20 {
@@ -6320,6 +6311,10 @@ li:hover > button svg {
     margin-right: 5rem;
   }
 
+  .lg\:mt-0 {
+    margin-top: 0px;
+  }
+
   .lg\:mt-32 {
     margin-top: 8rem;
   }
@@ -6330,6 +6325,14 @@ li:hover > button svg {
 
   .lg\:flex {
     display: flex;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+
+  .lg\:w-1\/2 {
+    width: 50%;
   }
 
   .lg\:max-w-\[972px\] {
@@ -6360,6 +6363,14 @@ li:hover > button svg {
     align-items: flex-start;
   }
 
+  .lg\:items-center {
+    align-items: center;
+  }
+
+  .lg\:justify-between {
+    justify-content: space-between;
+  }
+
   .lg\:space-x-0 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(0px * var(--tw-space-x-reverse));
@@ -6376,6 +6387,12 @@ li:hover > button svg {
     --tw-space-x-reverse: 0;
     margin-right: calc(4rem * var(--tw-space-x-reverse));
     margin-left: calc(4rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .lg\:space-x-2 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+    margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .lg\:space-x-20 > :not([hidden]) ~ :not([hidden]) {
@@ -6432,6 +6449,12 @@ li:hover > button svg {
     margin-bottom: calc(2rem * var(--tw-space-y-reverse));
   }
 
+  .lg\:space-x-1 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(0.25rem * var(--tw-space-x-reverse));
+    margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
   .lg\:px-20 {
     padding-left: 5rem;
     padding-right: 5rem;
@@ -6472,7 +6495,7 @@ li:hover > button svg {
 }
 
 @media (prefers-color-scheme: dark) {
-  @media (min-width: 976px) {
+  @media (min-width: 1024px) {
     .dark\:lg\:hover\:\[paint-order\:markers\]:hover {
       paint-order: markers;
     }
@@ -6480,20 +6503,12 @@ li:hover > button svg {
 }
 
 @media (min-width: 1440px) {
-  .xl\:-left-12 {
-    left: -3rem;
+  .xl\:flex {
+    display: flex;
   }
 
-  .xl\:-left-24 {
-    left: -6rem;
-  }
-
-  .xl\:bottom-0 {
-    bottom: 0px;
-  }
-
-  .xl\:mt-0 {
-    margin-top: 0px;
+  .xl\:hidden {
+    display: none;
   }
 
   .xl\:w-1\/2 {
@@ -6528,24 +6543,6 @@ li:hover > button svg {
     margin-left: calc(3rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
-  .xl\:space-x-16 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(4rem * var(--tw-space-x-reverse));
-    margin-left: calc(4rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .xl\:space-x-20 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(5rem * var(--tw-space-x-reverse));
-    margin-left: calc(5rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .xl\:space-x-24 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(6rem * var(--tw-space-x-reverse));
-    margin-left: calc(6rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
   .xl\:space-x-6 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(1.5rem * var(--tw-space-x-reverse));
@@ -6562,6 +6559,12 @@ li:hover > button svg {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
+  }
+
+  .xl\:space-x-4 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(1rem * var(--tw-space-x-reverse));
+    margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .xl\:px-12 {
