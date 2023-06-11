@@ -1383,6 +1383,10 @@ input:checked + .toggle-bg {
   margin: 2rem;
 }
 
+.m-16 {
+  margin: 4rem;
+}
+
 .\!my-0 {
   margin-top: 0px !important;
   margin-bottom: 0px !important;
@@ -1441,6 +1445,11 @@ input:checked + .toggle-bg {
 .my-\[5px\] {
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .-mb-16 {
@@ -7276,6 +7285,10 @@ li:hover > button svg {
 
   .lg\:h-\[650px\] {
     height: 650px;
+  }
+
+  .lg\:h-full {
+    height: 100%;
   }
 
   .lg\:w-1\/2 {
