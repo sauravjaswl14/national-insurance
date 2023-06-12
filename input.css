@@ -53,3 +53,11 @@ li:hover > button svg {
   background-color: #70b2d9;
   background-image: linear-gradient(315deg, #70b2d9 0%, #39e5b6 74%);
 }
+
+.insurance-gradient {
+  background-image: -webkit-linear-gradient(90deg, #f0f3f7 0%, white 100%);
+}
+
+.opportunity {
+  background-image: -webkit-linear-gradient(180deg, #0ce0ff 0%, #015fc9 100%);
+}

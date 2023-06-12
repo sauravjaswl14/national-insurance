@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Car Insurance</title>
+  </head>
+  <body>
+    <section class="mb-10">
+      <nav class="sticky top-0 z-30">
+        <div class="flex justify-around py-8 px-4 bg-white shadow-xl">
+          <div class="flex space-x-20">
+            <div>
+              <img src="./img/logo.jpg" alt="" />
+            </div>
+            <div class="hidden lg:flex items-center lg:space-x-6">
+              <!--  -->
+              <a
+                href="index.html"
+                class="font-semibold border-b-2 border-sky-500 border-spacing-0 focus:border-b-2 focus:border-cyan-500 focus:text-cyan-500"
+                >Home</a
+              >
+              <!--  -->
+              <div class="group inline-block">
+                <button
+                  aria-haspopup="true"
+                  aria-controls="menu"
+                  class="outline-none focus:outline-none px-3 py-1 bg-white rounded-sm flex items-center min-w-32"
+                >
+                  <span class="pr-1 font-semibold flex-1">About</span>
+                  <span>
+                    <svg
+                      class="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+                <ul
+                  id="menu"
+                  aria-hidden="true"
+                  class="flex flex-col space-y-6 bg-white border p-4 rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32"
+                >
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                    <a href="ceoMessage.html">Message from CEO</a>
+                  </li>
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                    <a href="hod.html">HOD</a>
+                  </li>
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                    <a href="missionVision.html">Mission and Vision</a>
+                  </li>
+                  <li class="rounded-sm relative px-3 py-1 hover:bg-gray-100">
+                    <button
+                      aria-haspopup="true"
+                      aria-controls="menu-lang"
+                      class="w-full text-left flex items-center outline-none focus:outline-none"
+                    >
+                      <span class="pr-1 flex-1">Executive</span>
+                      <span class="mr-auto">
+                        <svg
+                          class="fill-current h-4 w-4 transition duration-150 ease-in-out"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 20 20"
+                        >
+                          <path
+                            d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                    <ul
+                      id="menu-lang"
+                      aria-hidden="true"
+                      class="flex flex-col space-y-6 bg-white p-8 border rounded-sm absolute top-0 right-0 transition duration-150 ease-in-out origin-top-left min-w-32"
+                    >
+                      <li class="px-3 py-1 hover:bg-gray-100">
+                        <a href="deputyCeo.html"> Deputy CEO</a>
+                      </li>
+                      <li
+                        class="rounded-sm relative px-3 py-1 hover:bg-gray-100"
+                      >
+                        <button
+                          aria-haspopup="true"
+                          class="w-full text-left flex items-center outline-none focus:outline-none"
+                        >
+                          <span class="pr-1 flex-1"
+                            ><a href="management.html">Management</a>
+                          </span>
+                          <span class="mr-auto">
+                            <svg
+                              class="fill-current h-4 w-4 transition duration-150 ease-in-out"
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 20 20"
+                            >
+                              <path
+                                d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                              />
+                            </svg>
+                          </span>
+                        </button>
+                        <ul
+                          id="menu-lang-python"
+                          aria-hidden="true"
+                          class="bg-white border rounded-sm absolute top-0 right-0 transition duration-150 ease-in-out origin-top-left min-w-48"
+                        >
+                          <li class="px-6 py-3 hover:bg-gray-100">
+                            <a href=""></a> Corporate Management
+                          </li>
+                          <li class="px-6 py-3 hover:bg-gray-100">
+                            <a href=""></a> Local Management Committee
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                    Objectives
+                  </li>
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">Values</li>
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                    Key person
+                  </li>
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                    Nepal Management Committee
+                  </li>
+
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                    <a href="surveyors.html">Agents/Surveyor</a>
+                  </li>
+                </ul>
+              </div>
+
+              <!--  -->
+              <div class="group inline-block">
+                <button
+                  aria-haspopup="true"
+                  aria-controls="menu"
+                  class="outline-none focus:outline-none px-3 py-1 bg-white rounded-sm flex items-center min-w-32"
+                >
+                  <span class="pr-1 font-semibold flex-1">Insurance</span>
+                  <span>
+                    <svg
+                      class="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+                <ul
+                  id="menu"
+                  aria-hidden="true"
+                  class="flex flex-col space-y-6 bg-white border p-8 rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32"
+                >
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                    Motor Insurance
+                  </li>
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                    Health Insurance
+                  </li>
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                    Fire Insurance
+                  </li>
+                </ul>
+              </div>
+
+              <!--  -->
+              <div class="group inline-block">
+                <button
+                  aria-haspopup="true"
+                  aria-controls="menu"
+                  class="outline-none focus:outline-none px-3 py-1 bg-white rounded-sm flex items-center min-w-32"
+                >
+                  <span class="pr-1 font-semibold flex-1">Download</span>
+                  <span>
+                    <svg
+                      class="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+                <ul
+                  id="menu"
+                  aria-hidden="true"
+                  class="flex flex-col space-y-6 bg-white border p-8 rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32"
+                >
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                    Claim Estimation Form
+                  </li>
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                    Financial Reports
+                  </li>
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                    Kyc Form
+                  </li>
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                    Proposal Forms
+                  </li>
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">Tender</li>
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">Other</li>
+                </ul>
+              </div>
+
+              <!--  -->
+              <div class="group inline-block">
+                <button
+                  aria-haspopup="true"
+                  aria-controls="menu"
+                  class="outline-none focus:outline-none px-3 py-1 bg-white rounded-sm flex items-center min-w-32"
+                >
+                  <span class="pr-1 font-semibold flex-1"
+                    >Premium Calculator</span
+                  >
+                  <span>
+                    <svg
+                      class="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+                <ul
+                  id="menu"
+                  aria-hidden="true"
+                  class="flex flex-col space-y-6 bg-white border p-8 rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32"
+                >
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                    Motor Premium Calculator
+                  </li>
+                </ul>
+              </div>
+
+              <!--  -->
+              <div class="group inline-block">
+                <button
+                  aria-haspopup="true"
+                  aria-controls="menu"
+                  class="outline-none focus:outline-none px-3 py-1 bg-white rounded-sm flex items-center min-w-32"
+                >
+                  <span class="pr-1 font-semibold flex-1">Contact</span>
+                  <span>
+                    <svg
+                      class="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+                <ul
+                  id="menu"
+                  aria-hidden="true"
+                  class="flex flex-col space-y-6 bg-white border p-8 rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32"
+                >
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                    Information Officer
+                  </li>
+
+                  <li class="rounded-sm relative px-3 py-1 hover:bg-gray-100">
+                    <button
+                      aria-haspopup="true"
+                      class="w-full text-left flex items-center outline-none focus:outline-none"
+                    >
+                      <span class="pr-1 flex-1">Branches</span>
+                      <span class="mr-auto">
+                        <svg
+                          class="fill-current h-4 w-4 transition duration-150 ease-in-out"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 20 20"
+                        >
+                          <path
+                            d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                    <ul
+                      id="menu-lang-python"
+                      aria-hidden="true"
+                      class="bg-white border rounded-sm absolute top-0 right-0 transition duration-150 ease-in-out origin-top-left min-w-48"
+                    >
+                      <li class="px-6 py-3 hover:bg-gray-100">
+                        Kathmandu Branch
+                      </li>
+                      <li class="px-6 py-3 hover:bg-gray-100">India Branch</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+
+              <!--  -->
+              <a href="#" class="font-semibold">Career</a>
+            </div>
+          </div>
+
+          <div class="flex items-center space-x-6">
+            <div class="border-r-2 p-4">
+              <img src="./img/nepal.png" class="w-8 h-8" alt="" />
+            </div>
+
+            <div>
+              <img src="./img/india.png" class="w-8 h-8" alt="" />
+            </div>
+          </div>
+          <div class="hidden lg:flex lg:space-x-8 items-center">
+            <img src="./img/search.png" class="w-6 h-6" alt="" />
+            <img src="./img/menu.png" class="w-6 h-6" alt="" />
+          </div>
+        </div>
+      </nav>
+      <div
+        class="relative overflow-hidden bg-no-repeat bg-cover"
+        style="
+          background-position: 50%;
+          background-image: url('./img/page-header-bg.jpg');
+          background-size: cover;
+          height: 500px;
+        "
+      >
+        <div
+          class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
+          style="background-color: rgba(0, 0, 0, 0.75)"
+        >
+          <div class="flex justify-center items-center h-full">
+            <div class="text-white px-6 md:px-12">
+              <div
+                class="absolute bottom-4 left-6 bg-[#6B7078] p-4 px-8 rounded-xl"
+              >
+                <div class="flex flex-col space-y-6">
+                  <p class="text-white text-4xl font-bold">Car Insurance</p>
+                  <div class="flex items-center space-x-4">
+                    <p class="text-white text-xl font-semibold">Insurance</p>
+                    <div class="w-4 h-4 rounded-full bg-[#34DA89]"></div>
+                    <p class="text-white text-xl font-semibold">
+                      Car Insurance
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <div
+          class="flex flex-col space-y-8 lg:space-y-0 lg:flex-row"
+        >
+          <div class="lg:w-1/2">
+            <div
+              class="bg-[#f2f5f9] text-[#696e77] p-4 m-4 rounded-xl flex flex-col space-y-6"
+            >
+              <div
+                class="py-3 px-5 flex items-center justify-between insurance-gradient rounded-xl"
+              >
+                <a href="#" class="font-bold text-xl capitalize text-[#015fc9]"
+                  >Car Insurance</a
+                >
+                <a href="#">
+                  <img src="./img/right-arrow (2).png" class="w-8 h-8" alt="" />
+                </a>
+              </div>
+              <!--  -->
+              <div
+                class="py-3 px-5 flex items-center justify-between insurance-gradient rounded-xl"
+              >
+                <a href="#" class="font-bold text-xl capitalize"
+                  >Life Insurance</a
+                >
+                <a href="#">
+                  <img src="./img/right-arrow (2).png" class="w-8 h-8" alt="" />
+                </a>
+              </div>
+              <!--  -->
+              <div
+                class="py-3 px-5 flex items-center justify-between insurance-gradient rounded-xl"
+              >
+                <a href="#" class="font-bold text-xl capitalize"
+                  >Home Insurance</a
+                >
+                <a href="#">
+                  <img src="./img/right-arrow (2).png" class="w-8 h-8" alt="" />
+                </a>
+              </div>
+              <!--  -->
+              <div
+                class="py-3 px-5 flex items-center justify-between insurance-gradient rounded-xl"
+              >
+                <a href="#" class="font-bold text-xl capitalize"
+                  >Health Insurance</a
+                >
+                <a href="#">
+                  <img src="./img/right-arrow (2).png" class="w-8 h-8" alt="" />
+                </a>
+              </div>
+              <!--  -->
+              <div
+                class="py-3 px-5 flex items-center justify-between insurance-gradient rounded-xl"
+              >
+                <a href="#" class="font-bold text-xl capitalize"
+                  >Business Insurance</a
+                >
+                <a href="#">
+                  <img src="./img/right-arrow (2).png" class="w-8 h-8" alt="" />
+                </a>
+              </div>
+              <!--  -->
+              <div
+                class="py-3 px-5 flex items-center justify-between insurance-gradient rounded-xl"
+              >
+                <a href="#" class="font-bold text-xl capitalize"
+                  >Fire Insurance</a
+                >
+                <a href="#">
+                  <img src="./img/right-arrow (2).png" class="w-8 h-8" alt="" />
+                </a>
+              </div>
+              <!--  -->
+              <div
+                class="py-3 px-5 flex items-center justify-between insurance-gradient rounded-xl"
+              >
+                <a href="#" class="font-bold text-xl capitalize"
+                  >Marriage Insurance</a
+                >
+                <a href="#">
+                  <img src="./img/right-arrow (2).png" class="w-8 h-8" alt="" />
+                </a>
+              </div>
+              <!--  -->
+              <div
+                class="py-3 px-5 flex items-center justify-between insurance-gradient rounded-xl"
+              >
+                <a href="#" class="font-bold text-xl capitalize"
+                  >Travel Insurance</a
+                >
+                <a href="#">
+                  <img src="./img/right-arrow (2).png" class="w-8 h-8" alt="" />
+                </a>
+              </div>
+              <!--  -->
+            </div>
+
+            <div class="mt-8 mx-4 ">
+              <h2 class="text-[#16243d] text-2xl font-bold mb-6">
+                Download resources
+              </h2>
+              <div
+                class="border-2 p-4 mb-6 rounded-xl flex justify-center items-center"
+              >
+                <div class="flex flex-col items-center space-y-4">
+                  <div
+                    class="flex justify-center items-center w-20 h-20 rounded-full bg-[#0ce0ff]"
+                  >
+                    <img src="./img/pdf-file.png" class="w-10 h-10" alt="" />
+                  </div>
+                  <p class="text-sm text-[#696e77]">3.9KB</p>
+                  <p class="text-[#16243d text-2xl font-bold">
+                    Travel plan & policy
+                  </p>
+                  <button
+                    class="bg-[#015fc9] py-3 px-4 text-lg font-bold rounded-xl text-white"
+                  >
+                    Download
+                  </button>
+                </div>
+              </div>
+              <!--  -->
+
+              <div
+                class="border-2 p-4 mb-6 rounded-xl flex justify-center items-center"
+              >
+                <div class="flex flex-col items-center space-y-4">
+                  <div
+                    class="flex justify-center items-center w-20 h-20 rounded-full bg-[#0ce0ff]"
+                  >
+                    <img src="./img/pdf-file.png" class="w-10 h-10" alt="" />
+                  </div>
+                  <p class="text-sm text-[#696e77]">3.9KB</p>
+                  <p class="text-[#16243d text-2xl font-bold">
+                    Travel plan & policy
+                  </p>
+                  <button
+                    class="bg-[#015fc9] py-3 px-4 text-lg font-bold rounded-xl text-white"
+                  >
+                    Download
+                  </button>
+                </div>
+              </div>
+              <!--  -->
+
+              <div
+                class="relative rounded-2xl overflow-hidden bg-no-repeat bg-cover"
+                style="
+                  background-position: 50%;
+                  background-image: url('./img/expert.jpg');
+                  background-size: cover;
+                  height: 500px;
+                "
+              >
+                <div
+                  class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
+                  style="background-color: rgba(0, 0, 0, 0.75)"
+                >
+                   <div class="flex flex-col space-y-6 justify-center items-center h-full">
+                       <div
+                       class="flex justify-center items-center w-20 h-20 rounded-full bg-[#0ce0ff]"
+                     >
+                       <img src="./img/phone-call.png" class="w-10 h-10" alt="" />
+                     </div>
+                     <p class="text-2xl text-[#FFF]">
+                       Talk to our insurance agent
+                     </p>
+                     <p class="text-white text-lg font-bold">+977 987654321</p>
+                     <p class="text-lg text-white">Call to Our Experts</p>
+                   </div>
+                  </div>
+                </div>
+              </div>
+              <!-- <div
+                class="relative p-4 mb-6 rounded-xl flex justify-center items-center"
+              >
+                <img src="./img/expert.jpg" class="w-full h-[400px]" alt="" />
+                <div class="absolute flex flex-col items-center space-y-4">
+                  <div
+                    class="flex justify-center items-center w-20 h-20 rounded-full bg-[#0ce0ff]"
+                  >
+                    <img src="./img/pdf-file.png" class="w-10 h-10" alt="" />
+                  </div>
+                  <p class="text-2xl text-[#FFF]">
+                    Talk to our insurance agent
+                  </p>
+                  <p class="text-white text-lg font-bold">+977 987654321</p>
+                  <p class="text-lg text-white">Call to Our Experts</p>
+                </div>
+              </div> -->
+              <!--  -->
+          </div>
+
+          <!-- image -->
+         
+          <div class="w-full">
+             <div class="w-[1040px] rounded-xl">
+
+              <img src="./img/insurance-details-img-1.jpg" class="w-full p-8 rounded-xl" alt="">
+             </div>
+
+              <div class="flex flex-col space-y-4 items-center mb-8">
+                 <p class="text-2xl text-[#16243d] font-semibold">Eligible ages:</p>
+                 <div class="flex space-x-6">
+                  <p class="text-[#696e77] text-xl">Minimum Age: <span class="text-[#015fc9] font-semibold">10 Years</span></p>
+                  <p class="text-[#696e77] text-xl">Maximum Age: <span class="text-[#015fc9] font-semibold">65 Years</span></p>
+                 </div>
+              </div>
+
+              <p class="px-10 text-lg text-[#696e77] mb-6">Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+              <p class="px-10 text-xl text-[#16243d] mb-6">Biophilia is the idea that humans possess an innate tendency to seek connections with nature. The term translates</p>
+
+              <p class="px-10 text-xl text-[#696e77] mb-6">When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+              <div class="p-4 flex flex-col space-y-6 lg:space-y-0 lg:flex-row lg:space-x-8">
+               <div class="flex flex-col">
+                 <img src="./img/insurance-details-opportunities-img.jpg" class="rounded-t-xl" alt="">
+                 <div class=" bg-gradient-to-r from-[#0ce0ff] to-[#015fc9] rounded-b-xl py-5 px-6 flex justify-center items-center">
+                  <p class="text-white font-bold">Hope for the best, Prepare for the Worst</p>
+                 </div>
+               </div>
+
+                <div class=" pt-6 p-4 flex flex-col space-y-10">
+                  <h4 class="text-3xl font-semibold text-[#16243d]">Main features</h4>
+                  <p class="text-[#7a7a7a] max-w-xl">There are many variations of passages of available but the majority have suffered alteration in some form, by injected hum randomised words which don't slightly.</p>
+                   <div class="flex flex-col space-y-4">
+                   <div class="flex items-center space-x-6">
+                     <div class="flex justify-center items-center w-8 h-8 rounded-full bg-[#0ce0ff]">
+                      <img src="./img/check (1).png" class="w-5 h-5" alt="">
+                     </div>
+                     <p>International Plans</p>
+                   </div>
+                   <div class="flex items-center space-x-6">
+                     <div class="flex justify-center items-center w-8 h-8 rounded-full bg-[#0ce0ff]">
+                      <img src="./img/check (1).png" class="w-5 h-5" alt="">
+                     </div>
+                     <p>Domestic Plans</p>
+                   </div>
+                   <div class="flex items-center space-x-6">
+                     <div class="flex justify-center items-center w-8 h-8 rounded-full bg-[#0ce0ff]">
+                      <img src="./img/check (1).png" class="w-5 h-5" alt="">
+                     </div>
+                     <p>Student Study Plans</p>
+                   </div>
+                   <div class="flex items-center space-x-6">
+                     <div class="flex justify-center items-center w-8 h-8 rounded-full bg-[#0ce0ff]">
+                      <img src="./img/check (1).png" class="w-5 h-5" alt="">
+                     </div>
+                     <p>Specialized investigations</p>
+                   </div>
+                 </div>
+                 </div>
+              </div>
+
+              <div class="my-10 p-4">
+                <div class="flex flex-col space-y-6">
+                 <div class="bg-white p-6 shadow-lg flex flex-col space-y-6 lg:space-y-0 md:flex-row md:space-x-10 rounded-lg">
+                    <div class="flex items-center space-x-6 md:border-r-2">
+                     <img src="./img/easy.png" class="w-20 h-20" alt="">
+                     <p class="text-xl text-[#16243d]">Fast & Easy Process</p>
+                    </div>
+                    <p class="text-lg text-[#696e77]">There are many not of age of dirm available the simply free text available in the market today you can use them majority.</p>
+                 </div>
+
+                 <div class="bg-white p-6 shadow-lg flex flex-col space-y-6 lg:space-y-0 md:flex-row md:space-x-10 rounded-lg">
+                   <div class="flex items-center space-x-6 md:border-r-2">
+                    <img src="./img/writing.png" class="w-20 h-20" alt="">
+                    <p class="text-xl text-[#16243d]">Quick Claim Handle</p>
+                   </div>
+                   <p class="text-lg text-[#696e77]">There are many not of age of dirm available the simply free text available in the market today you can use them majority.</p>
+                 </div>
+
+                 <div class="bg-white p-6 shadow-lg flex flex-col space-y-6 lg:space-y-0 md:flex-row md:space-x-10 rounded-lg">
+                   <div class="flex items-center space-x-6 md:border-r-2">
+                    <img src="./img/money-bag.png" class="w-20 h-20" alt="">
+                    <p class="text-xl text-[#16243d]">Save Your Money</p>
+                   </div>
+                   <p class="text-lg text-[#696e77]">There are many not of age of dirm available the simply free text available in the market today you can use them majority.</p>
+                 </div>
+
+                  
+                </div>
+              </div>
+
+              <div class="flex mb-8 p-4 flex-col space-y-6">
+                <h4 class="text-3xl font-semibold text-[#16243d]">Talk to our insurance experts</h4>
+                <p class="text-[#696e77] text-lg lg:max-w-4xl">Speak with insurance experts and ask questions before finalizing your plans or if you want help regarding our services. Our dedicated staff is more than happy to call and guide you.</p>
+
+                <input type="text" class="border-none active:outline-none placeholder:text-lg placeholder:text-[#696e77]" placeholder="Your phone number"/>
+
+                <button class="bg-[#015fc9] py-3 px-5 w-56 text-lg font-bold text-white rounded-lg">Get a Phone Call</button>
+              </div>
+
+          </div>
+         
+
+        </div>
+
+        </div>
+      </div>
+    </section>
+
+     <footer id="footer" class="w-full">
+      <div class="p-10 lg:py-12 lg:px-20 text-white">
+        <div class="flex flex-col space-y-12 items-center justify-center xl:space-y-0 xl:flex-row xl:space-x-12">
+          <!-- logo and newsletter -->
+          <div class="flex flex-col space-y-12 md:flex-row md:space-x-12">
+            <!-- logo -->
+            <div class="flex flex-col space-y-6">
+              <div>
+                <img src="./img/logo.jpg" alt=""/>
+              </div>
+
+              <p class="font-semibold text-xl max-w-sm">National Insurance Company is one of the leading public sector non life insurance companies of India, Headquartered in Kolkata, NIC’s foreign operation is carried out through its branch office in Nepal.</p>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="flex flex-col space-y-6">
+              <p class="text-xl font-bold">Newsletter</p>
+
+              <p class="max-w-sm text-lg font-semibold">Subscribe our newsletter to get our latest update & news</p>
+
+              <div class="flex">
+                <div>
+                  <input type="text" class="py-3 px-5" placeholder="Your mail address">
+                </div>
+                <div class="flex justify-center items-center w-12 h-12  bg-[#138F82]">
+                  <img src="./img/telegram.png" class="w-8 h-8" alt="">
+                </div>
+              </div>
+
+              <div class="flex items-center space-x-8">
+                <img src="./img/facebook.png" class="w-10 h-10" alt="">
+                <img src="./img/twitter.png" class="w-10 h-10" alt="">
+                <img src="./img/instagram.png" class="w-10 h-10" alt="">
+                <img src="./img/linkedin.png" class="w-10 h-10" alt="">
+              </div>
+            </div>
+          </div>
+          
+          <!-- social -->
+          <div class="flex flex-col space-y-12 md:space-y-0 md:flex-row md:space-x-12">
+
+            <div class="flex flex-col space-y-6">
+                <p class="text-xl font-bold">Official info:</p>
+
+                <div class="flex flex-col space-y-6">
+                  <div class="flex space-x-4">
+                    <img src="./img/location-pin.png" class="w-8 h-8" alt=""/>
+                    <p class="max-w-sm text-lg">KKM Building (2 nd Floor), P.O Box: 376, Tripureshwor, Kathmandu, Nepal</p>
+                  </div>
+                  <div class="flex space-x-4">
+                    <img src="./img/call.png" class="w-8 h-8" alt=""/>
+                    <p class="max-w-sm text-lg">1-888-452-1505</p>
+                  </div>
+                  <p class="max-w-xs pl-12">Sun-Fri 8am - 5pm, <br/> Saturday: CLOSED</p>
+                </div>
+
+            </div>
+            
+            <!-- instagram -->
+            <div class="flex flex-col space-y-6">
+              <p class="text-xl font-bold">Instagram</p>
+
+              <div class="grid grid-cols-3">
+                <div class="w-32">
+                  <img src="./img/1.jpg" class="w-full" alt="">
+                </div>
+                <div class="w-32">
+                  <img src="./img/2.jpg" class="w-full" alt="">
+                </div>
+                <div class="w-32">
+                  <img src="./img/3.jpg" class="w-full" alt="">
+                </div>
+                <div class="w-32">
+                  <img src="./img/4.jpg" class="w-full" alt="">
+                </div>
+                <div class="w-32">
+                  <img src="./img/5.jpg" class="w-full" alt="">
+                </div>
+                <div class="w-32">
+                  <img src="./img/6.jpg" class="w-full" alt="">
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
