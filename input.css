@@ -96,6 +96,61 @@ li:hover > button svg {
   background-image: -webkit-linear-gradient(180deg, #0ce0ff 0%, #015fc9 100%);
 }
 
+#mySidenav a {
+  position: fixed;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 115px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  border-radius: 0 5px 5px 0;
+  border-right: 2px solid #ffffff;
+  z-index: 1;
+  font-family: 'Creepster', cursive;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#mySidenav i {
+  position: absolute;
+  right: 10px;
+  letter-spacing: -3px;
+  font-size: 20px;
+}
+
+#mySidenav a:nth-child(1) {
+  top: 80px;
+  background: url('http://1.bp.blogspot.com/_mtYo_rZcUDI/SQtQjKL39eI/AAAAAAAAADg/ju5WI6FXz5g/s320/729px-Scary_pumpkin_5.svg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+
+#mySidenav a:nth-child(2) {
+  top: 148px;
+  padding: 8px;
+  background-color: #1e90ff;
+}
+
+#mySidenav a:nth-child(3) {
+  top: 200px;
+  padding: 8px;
+
+  background-color: #ff0000;
+}
+
+#mySidenav a:nth-child(4) {
+  top: 252px;
+  padding: 8px;
+
+  background-color: #555;
+}
+
 .hamburger {
   display: block;
   margin-right: 30px;

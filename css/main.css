@@ -1371,10 +1371,6 @@ input:checked + .toggle-bg {
   margin: 1.5rem;
 }
 
-.m-8 {
-  margin: 2rem;
-}
-
 .\!my-0 {
   margin-top: 0px !important;
   margin-bottom: 0px !important;
@@ -1754,10 +1750,6 @@ input:checked + .toggle-bg {
   height: 3.5rem;
 }
 
-.h-16 {
-  height: 4rem;
-}
-
 .h-2 {
   height: 0.5rem;
 }
@@ -1974,10 +1966,6 @@ input:checked + .toggle-bg {
   width: 3rem;
 }
 
-.w-16 {
-  width: 4rem;
-}
-
 .w-2 {
   width: 0.5rem;
 }
@@ -2118,6 +2106,10 @@ input:checked + .toggle-bg {
   width: 6px;
 }
 
+.w-\[70\%\] {
+  width: 70%;
+}
+
 .w-\[72px\] {
   width: 72px;
 }
@@ -2148,10 +2140,6 @@ input:checked + .toggle-bg {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-\[70\%\] {
-  width: 70%;
 }
 
 .min-w-0 {
@@ -4462,6 +4450,10 @@ input:checked + .toggle-bg {
   padding-right: 1.25rem;
 }
 
+.pr-56 {
+  padding-right: 14rem;
+}
+
 .pr-\[24px\] {
   padding-right: 24px;
 }
@@ -4492,14 +4484,6 @@ input:checked + .toggle-bg {
 
 .pt-\[0\.37rem\] {
   padding-top: 0.37rem;
-}
-
-.pr-44 {
-  padding-right: 11rem;
-}
-
-.pr-56 {
-  padding-right: 14rem;
 }
 
 .text-left {
@@ -5789,6 +5773,59 @@ li:hover > button svg {
 
 .opportunity {
   background-image: -webkit-linear-gradient(180deg, #0ce0ff 0%, #015fc9 100%);
+}
+
+#mySidenav a {
+  position: fixed;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 115px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  border-radius: 0 5px 5px 0;
+  border-right: 2px solid #ffffff;
+  z-index: 1;
+  font-family: 'Creepster', cursive;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#mySidenav i {
+  position: absolute;
+  right: 10px;
+  letter-spacing: -3px;
+  font-size: 20px;
+}
+
+#mySidenav a:nth-child(1) {
+  top: 80px;
+  background: url('http://1.bp.blogspot.com/_mtYo_rZcUDI/SQtQjKL39eI/AAAAAAAAADg/ju5WI6FXz5g/s320/729px-Scary_pumpkin_5.svg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+
+#mySidenav a:nth-child(2) {
+  top: 148px;
+  padding: 8px;
+  background-color: #1e90ff;
+}
+
+#mySidenav a:nth-child(3) {
+  top: 200px;
+  padding: 8px;
+  background-color: #ff0000;
+}
+
+#mySidenav a:nth-child(4) {
+  top: 252px;
+  padding: 8px;
+  background-color: #555;
 }
 
 .hamburger {
@@ -7631,6 +7668,11 @@ li:hover > button svg {
     padding-right: 3rem;
   }
 
+  .md\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
   .md\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -7641,19 +7683,14 @@ li:hover > button svg {
     padding-bottom: 3rem;
   }
 
-  .md\:py-8 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-
-  .md\:px-5 {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-  }
-
   .md\:py-3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
+  }
+
+  .md\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .md\:pl-0 {
@@ -7796,10 +7833,6 @@ li:hover > button svg {
 
   .lg\:max-w-\[972px\] {
     max-width: 972px;
-  }
-
-  .lg\:max-w-sm {
-    max-width: 24rem;
   }
 
   .lg\:max-w-xl {
@@ -7947,6 +7980,10 @@ li:hover > button svg {
 
   .lg\:pb-4 {
     padding-bottom: 1rem;
+  }
+
+  .lg\:pr-0 {
+    padding-right: 0px;
   }
 
   .lg\:pr-44 {
