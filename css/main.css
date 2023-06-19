@@ -2058,10 +2058,6 @@ input:checked + .toggle-bg {
   width: 200px;
 }
 
-.w-\[230px\] {
-  width: 230px;
-}
-
 .w-\[24px\] {
   width: 24px;
 }
@@ -2088,6 +2084,10 @@ input:checked + .toggle-bg {
 
 .w-\[32px\] {
   width: 32px;
+}
+
+.w-\[350px\] {
+  width: 350px;
 }
 
 .w-\[4px\] {
@@ -4416,10 +4416,6 @@ input:checked + .toggle-bg {
 
 .pr-12 {
   padding-right: 3rem;
-}
-
-.pr-14 {
-  padding-right: 3.5rem;
 }
 
 .pr-16 {
@@ -7543,6 +7539,10 @@ li:hover > button svg {
     margin-top: 8rem;
   }
 
+  .md\:block {
+    display: block;
+  }
+
   .md\:h-10 {
     height: 2.5rem;
   }
@@ -7551,16 +7551,16 @@ li:hover > button svg {
     height: 8rem;
   }
 
+  .md\:w-1\/2 {
+    width: 50%;
+  }
+
   .md\:w-10 {
     width: 2.5rem;
   }
 
   .md\:w-32 {
     width: 8rem;
-  }
-
-  .md\:w-\[350px\] {
-    width: 350px;
   }
 
   .md\:w-full {
@@ -8017,11 +8017,6 @@ li:hover > button svg {
   .lg\:text-7xl {
     font-size: 4.5rem;
     line-height: 1;
-  }
-
-  .lg\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
   }
 
   .lg\:text-xl {
