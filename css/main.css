@@ -1371,6 +1371,10 @@ input:checked + .toggle-bg {
   margin: 1.5rem;
 }
 
+.m-8 {
+  margin: 2rem;
+}
+
 .\!my-0 {
   margin-top: 0px !important;
   margin-bottom: 0px !important;
@@ -1424,6 +1428,11 @@ input:checked + .toggle-bg {
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.mx-16 {
+  margin-left: 4rem;
+  margin-right: 4rem;
 }
 
 .-mb-16 {
@@ -4355,6 +4364,16 @@ input:checked + .toggle-bg {
 .py-\[5px\] {
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.px-32 {
+  padding-left: 8rem;
+  padding-right: 8rem;
 }
 
 .pb-0 {
@@ -7496,6 +7515,10 @@ li:hover > button svg {
     margin: 2rem;
   }
 
+  .md\:m-10 {
+    margin: 2.5rem;
+  }
+
   .md\:mx-8 {
     margin-left: 2rem;
     margin-right: 2rem;
@@ -7509,6 +7532,11 @@ li:hover > button svg {
   .md\:my-0 {
     margin-top: 0px;
     margin-bottom: 0px;
+  }
+
+  .md\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   .md\:mb-0 {
@@ -7721,6 +7749,11 @@ li:hover > button svg {
   .md\:py-10 {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
+  }
+
+  .md\:px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
   }
 
   .md\:pl-0 {
