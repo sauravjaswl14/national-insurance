@@ -10,29 +10,45 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="jquery-3.3.1.min.js"></script>
     <link rel="stylesheet" href="./css/main.css" />
     <title>Message from CEO</title>
   </head>
   <body class="bg-[#f4f8f9]">
-    <nav class="sticky top-0 z-30">
-      <div class="flex justify-around py-8 px-4 bg-white shadow-xl">
-        <div class="flex space-x-20">
-          <div>
-            <img src="./img/logo.jpg" alt="" />
-          </div>
-          <div class="hidden lg:flex items-center lg:space-x-6">
-            <!--  -->
+    <nav class="sticky w-full top-0 left-0 right-0 z-30 overflow-x-hidden">
+      <div
+        class="flex space-x-8 items-center p-8 pr-12 bg-white shadow-xl md:space-x-80"
+      >
+        <div class="flex items-center space-x-16">
+          <img src="./img/logo.jpg" alt="" />
+
+          <div class="hidden lg:flex lg:space-x-4 lg:items-center">
             <a
-              href="index.html"
+              href="#"
               class="font-semibold border-b-2 border-sky-500 border-spacing-0 focus:border-b-2 focus:border-cyan-500 focus:text-cyan-500"
               >Home</a
             >
-            <!--  -->
+
             <div class="group inline-block">
               <button
                 aria-haspopup="true"
                 aria-controls="menu"
-                class="outline-none focus:outline-none px-3 py-1 bg-white rounded-sm flex items-center min-w-32"
+                class="outline-none focus:outline-none px-1 py-1 bg-white rounded-sm flex items-center min-w-32"
               >
                 <span class="pr-1 font-semibold flex-1">About</span>
                 <span>
@@ -52,16 +68,16 @@
                 aria-hidden="true"
                 class="flex flex-col space-y-6 bg-white border p-4 rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32"
               >
-                <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                <li class="rounded-sm px-1 py-1 hover:bg-gray-100">
                   <a href="ceoMessage.html">Message from CEO</a>
                 </li>
-                <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                <li class="rounded-sm px-1 py-1 hover:bg-gray-100">
                   <a href="hod.html">HOD</a>
                 </li>
-                <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                <li class="rounded-sm px-1 py-1 hover:bg-gray-100">
                   <a href="missionVision.html">Mission and Vision</a>
                 </li>
-                <li class="rounded-sm relative px-3 py-1 hover:bg-gray-100">
+                <li class="rounded-sm relative px-1 py-1 hover:bg-gray-100">
                   <button
                     aria-haspopup="true"
                     aria-controls="menu-lang"
@@ -81,14 +97,13 @@
                     </span>
                   </button>
                   <ul
-                    id="menu-lang"
                     aria-hidden="true"
                     class="flex flex-col space-y-6 bg-white p-8 border rounded-sm absolute top-0 right-0 transition duration-150 ease-in-out origin-top-left min-w-32"
                   >
-                    <li class="px-3 py-1 hover:bg-gray-100">
+                    <li class="px-1 py-1 hover:bg-gray-100">
                       <a href="deputyCeo.html"> Deputy CEO</a>
                     </li>
-                    <li class="rounded-sm relative px-3 py-1 hover:bg-gray-100">
+                    <li class="rounded-sm relative px-1 py-1 hover:bg-gray-100">
                       <button
                         aria-haspopup="true"
                         class="w-full text-left flex items-center outline-none focus:outline-none"
@@ -109,7 +124,6 @@
                         </span>
                       </button>
                       <ul
-                        id="menu-lang-python"
                         aria-hidden="true"
                         class="bg-white border rounded-sm absolute top-0 right-0 transition duration-150 ease-in-out origin-top-left min-w-48"
                       >
@@ -123,29 +137,28 @@
                     </li>
                   </ul>
                 </li>
-                <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                <li class="rounded-sm px-1 py-1 hover:bg-gray-100">
                   Objectives
                 </li>
-                <li class="rounded-sm px-3 py-1 hover:bg-gray-100">Values</li>
-                <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                <li class="rounded-sm px-1 py-1 hover:bg-gray-100">Values</li>
+                <li class="rounded-sm px-1 py-1 hover:bg-gray-100">
                   Key person
                 </li>
-                <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                <li class="rounded-sm px-1 py-1 hover:bg-gray-100">
                   Nepal Management Committee
                 </li>
 
-                <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                <li class="rounded-sm px-1 py-1 hover:bg-gray-100">
                   <a href="surveyors.html">Agents/Surveyor</a>
                 </li>
               </ul>
             </div>
 
-            <!--  -->
             <div class="group inline-block">
               <button
                 aria-haspopup="true"
                 aria-controls="menu"
-                class="outline-none focus:outline-none px-3 py-1 bg-white rounded-sm flex items-center min-w-32"
+                class="outline-none focus:outline-none px-1 py-1 bg-white rounded-sm flex items-center min-w-32"
               >
                 <span class="pr-1 font-semibold flex-1">Insurance</span>
                 <span>
@@ -161,7 +174,6 @@
                 </span>
               </button>
               <ul
-                id="menu"
                 aria-hidden="true"
                 class="flex flex-col space-y-6 bg-white border p-8 rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32"
               >
@@ -177,12 +189,11 @@
               </ul>
             </div>
 
-            <!--  -->
             <div class="group inline-block">
               <button
                 aria-haspopup="true"
                 aria-controls="menu"
-                class="outline-none focus:outline-none px-3 py-1 bg-white rounded-sm flex items-center min-w-32"
+                class="outline-none focus:outline-none px-1 py-1 bg-white rounded-sm flex items-center min-w-32"
               >
                 <span class="pr-1 font-semibold flex-1">Download</span>
                 <span>
@@ -198,7 +209,6 @@
                 </span>
               </button>
               <ul
-                id="menu"
                 aria-hidden="true"
                 class="flex flex-col space-y-6 bg-white border p-8 rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32"
               >
@@ -217,14 +227,13 @@
               </ul>
             </div>
 
-            <!--  -->
             <div class="group inline-block">
               <button
                 aria-haspopup="true"
                 aria-controls="menu"
-                class="outline-none focus:outline-none px-3 py-1 bg-white rounded-sm flex items-center min-w-32"
+                class="outline-none focus:outline-none px-1 py-1 bg-white rounded-sm flex items-center min-w-32"
               >
-                <span class="pr-1 font-semibold flex-1"
+                <span class="font-semibold flex-1 whitespace-nowrap"
                   >Premium Calculator</span
                 >
                 <span>
@@ -240,7 +249,6 @@
                 </span>
               </button>
               <ul
-                id="menu"
                 aria-hidden="true"
                 class="flex flex-col space-y-6 bg-white border p-8 rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32"
               >
@@ -250,7 +258,6 @@
               </ul>
             </div>
 
-            <!--  -->
             <div class="group inline-block">
               <button
                 aria-haspopup="true"
@@ -311,26 +318,303 @@
               </ul>
             </div>
 
-            <!--  -->
             <a href="#" class="font-semibold">Career</a>
           </div>
         </div>
 
-        <div class="flex items-center space-x-6">
+        <div class="flex items-center space-x-4">
           <div class="border-r-2 p-4">
             <img src="./img/nepal.png" class="w-8 h-8" alt="" />
           </div>
 
           <div>
-            <img src="./img/india.png" class="w-8 h-8" alt="" />
+            <img src="./img/united-kingdom.png" class="w-8 h-8" alt="" />
           </div>
-        </div>
-        <div class="hidden lg:flex lg:space-x-8 items-center">
-          <img src="./img/search.png" class="w-6 h-6" alt="" />
-          <img src="./img/menu.png" class="w-6 h-6" alt="" />
+
+          <div class="lg:hidden">
+            <button class="navbar-burger flex items-center text-blue-600 p-3">
+              <svg
+                class="block h-6 w-6 fill-current"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>Mobile menu</title>
+                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+              </svg>
+            </button>
+          </div>
         </div>
       </div>
     </nav>
+
+    <div class="navbar-menu relative z-50 hidden">
+      <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
+      <nav
+        class="fixed top-0 left-0 bottom-0 flex flex-col w-[90%] max-w-sm py-6 px-6 bg-white border-r overflow-y-auto"
+      >
+        <div class="flex items-center mb-8">
+          <a class="mr-auto text-3xl font-bold leading-none" href="#">
+            <img src="./img/logo.jpg" alt="" />
+          </a>
+          <button class="navbar-close">
+            <svg
+              class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"
+              ></path>
+            </svg>
+          </button>
+        </div>
+        <div>
+          <ul>
+            <li class="mb-1">
+              <a
+                class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+                href="#"
+                >Home</a
+              >
+            </li>
+
+            <li class="group">
+              <button
+                class="outline-none focus:outline-none p-4 flex items-center text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+              >
+                <span class="pr-1 font-semibold flex-1">About</span>
+                <span>
+                  <svg
+                    class="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                    />
+                  </svg>
+                </span>
+              </button>
+              <ul
+                class="bg-white p-4 border rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32"
+              >
+                <li class="rounded-sm px-3 py-4 hover:bg-gray-100">
+                  <a href="#">Message From CEO</a>
+                </li>
+                <li class="rounded-sm px-3 py-4 hover:bg-gray-100">
+                  <a href="#">HOD</a>
+                </li>
+                <li class="rounded-sm px-3 py-4 hover:bg-gray-100">
+                  <a href="#">Mission and Vision</a>
+                </li>
+                <li class="rounded-sm relative px-3 py-4 hover:bg-gray-100">
+                  <button
+                    class="w-full text-left flex items-center outline-none focus:outline-none"
+                  >
+                    <span class="pr-1 flex-1">Executive</span>
+                    <span class="mr-auto">
+                      <svg
+                        class="fill-current h-4 w-4 transition duration-150 ease-in-out"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                        />
+                      </svg>
+                    </span>
+                  </button>
+                  <ul
+                    class="bg-white border rounded-sm absolute top-0 right-0 transition duration-150 ease-in-out origin-top-left min-w-32"
+                  >
+                    <li class="px-3 py-4 hover:bg-gray-100">Deputy CEO</li>
+                    <li
+                      id="dropdownBottomButton"
+                      data-dropdown-toggle="dropdownBottom"
+                      data-dropdown-placement="bottom"
+                      class="mr-3 mb-3 md:mb-0 p-4 flex space-x-2 items-center"
+                    >
+                      Management
+                    </li>
+
+                    <!-- Dropdown menu -->
+                    <div
+                      id="dropdownBottom"
+                      class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700"
+                    >
+                      <ul
+                        class="py-2 text-sm text-gray-700 dark:text-gray-200"
+                        aria-labelledby="dropdownBottomButton"
+                      >
+                        <li>
+                          <a
+                            href="#"
+                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                            >Corporate Management</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                            >Local Management committee</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </ul>
+                </li>
+                <li class="rounded-sm px-3 py-4 hover:bg-gray-100">
+                  <a href="#">Objectives</a>
+                </li>
+                <li class="rounded-sm px-3 py-4 hover:bg-gray-100">
+                  <a href="#">Values</a>
+                </li>
+                <li class="rounded-sm px-3 py-4 hover:bg-gray-100">
+                  <a href="#">Key Person</a>
+                </li>
+                <li class="rounded-sm px-3 py-4 hover:bg-gray-100">
+                  <a href="#"
+                    >Nepal Management <br />
+                    Committee</a
+                  >
+                </li>
+                <li class="rounded-sm px-3 py-4 hover:bg-gray-100">
+                  <a href="#">Agents/Surveyors</a>
+                </li>
+                <li class="rounded-sm px-3 py-4 hover:bg-gray-100">
+                  <a href="#">Key person</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="group">
+              <button
+                class="outline-none focus:outline-none p-4 flex items-center text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+              >
+                <span class="pr-1 font-semibold flex-1">Insurance</span>
+              </button>
+              <ul
+                class="bg-white p-4 border rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32"
+              >
+                <li class="rounded-sm px-3 py-4 hover:bg-gray-100">
+                  <a href="#">Motor Insurance</a>
+                </li>
+                <li class="rounded-sm px-3 py-4 hover:bg-gray-100">
+                  <a href="#">Health Insurance</a>
+                </li>
+                <li class="rounded-sm px-3 py-4 hover:bg-gray-100">
+                  <a href="#">Fire Insurance</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="group block">
+              <button
+                class="outline-none focus:outline-none p-4 flex items-center text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+              >
+                <span class="pr-1 font-semibold flex-1">Download</span>
+              </button>
+              <ul
+                class="bg-white p-4 border rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32"
+              >
+                <li class="rounded-sm px-3 py-4 hover:bg-gray-100">
+                  <a href="#">Claim Estimation Form</a>
+                </li>
+                <li class="rounded-sm px-3 py-4 hover:bg-gray-100">
+                  <a href="#">Financial Reports</a>
+                </li>
+                <li class="rounded-sm px-3 py-4 hover:bg-gray-100">
+                  <a href="#">Kyc Form</a>
+                </li>
+
+                <li class="rounded-sm px-3 py-4 hover:bg-gray-100">
+                  <a href="#">Proposal Forms</a>
+                </li>
+                <li class="rounded-sm px-3 py-4 hover:bg-gray-100">
+                  <a href="#">Tender</a>
+                </li>
+                <li class="rounded-sm px-3 py-4 hover:bg-gray-100">
+                  <a href="#">Other</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="group block">
+              <button
+                class="outline-none focus:outline-none p-4 flex items-center text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+              >
+                <span class="pr-1 font-semibold flex-1"
+                  >Premium Calculator</span
+                >
+              </button>
+              <ul
+                class="bg-white p-4 border rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32"
+              >
+                <li class="rounded-sm px-3 py-4 hover:bg-gray-100">
+                  <a href="#">Motor Premium Calculator</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="group block">
+              <button
+                class="outline-none focus:outline-none p-4 flex items-center text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+              >
+                <span class="pr-1 font-semibold flex-1">Contact</span>
+              </button>
+              <ul
+                class="bg-white p-4 border rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32"
+              >
+                <li class="rounded-sm px-3 py-4 hover:bg-gray-100">
+                  <a href="#">Information Officer</a>
+                </li>
+
+                <li class="rounded-sm relative px-3 py-4 hover:bg-gray-100">
+                  <button
+                    class="w-full text-left flex items-center outline-none focus:outline-none"
+                  >
+                    <span class="pr-1 flex-1">Branches</span>
+                    <span class="mr-auto">
+                      <svg
+                        class="fill-current h-4 w-4 transition duration-150 ease-in-out"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                        />
+                      </svg>
+                    </span>
+                  </button>
+                  <ul
+                    class="bg-white border rounded-sm absolute top-0 right-0 transition duration-150 ease-in-out origin-top-left min-w-32"
+                  >
+                    <li class="px-3 py-4 hover:bg-gray-100">
+                      Kathmandu Branch
+                    </li>
+                    <li class="px-3 py-4 hover:bg-gray-100">India Branch</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+            <li class="mb-1">
+              <a
+                class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+                href="#"
+                >Career</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
 
     <div class="flex justify-center mb-6 min-h-screen bg-white">
       <div
