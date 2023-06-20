@@ -1179,6 +1179,10 @@ input:checked + .toggle-bg {
   left: 0.75rem;
 }
 
+.left-40 {
+  left: 10rem;
+}
+
 .left-6 {
   left: 1.5rem;
 }
@@ -1251,6 +1255,10 @@ input:checked + .toggle-bg {
   top: 0.5rem;
 }
 
+.top-48 {
+  top: 12rem;
+}
+
 .top-6 {
   top: 1.5rem;
 }
@@ -1265,18 +1273,6 @@ input:checked + .toggle-bg {
 
 .top-\[600px\] {
   top: 600px;
-}
-
-.top-20 {
-  top: 5rem;
-}
-
-.left-40 {
-  left: 10rem;
-}
-
-.top-48 {
-  top: 12rem;
 }
 
 .isolate {
@@ -1462,6 +1458,10 @@ input:checked + .toggle-bg {
   margin-top: -0.75rem;
 }
 
+.-mt-40 {
+  margin-top: -10rem;
+}
+
 .mb-0 {
   margin-bottom: 0px;
 }
@@ -1614,10 +1614,6 @@ input:checked + .toggle-bg {
   margin-top: 200px;
 }
 
-.-mt-40 {
-  margin-top: -10rem;
-}
-
 .box-border {
   box-sizing: border-box;
 }
@@ -1755,6 +1751,10 @@ input:checked + .toggle-bg {
 
 .h-14 {
   height: 3.5rem;
+}
+
+.h-16 {
+  height: 4rem;
 }
 
 .h-2 {
@@ -1925,10 +1925,6 @@ input:checked + .toggle-bg {
   height: 100vh;
 }
 
-.h-16 {
-  height: 4rem;
-}
-
 .max-h-\[calc\(100\%-64px\)\] {
   max-height: calc(100% - 64px);
 }
@@ -1971,6 +1967,10 @@ input:checked + .toggle-bg {
 
 .w-12 {
   width: 3rem;
+}
+
+.w-16 {
+  width: 4rem;
 }
 
 .w-2 {
@@ -2143,18 +2143,6 @@ input:checked + .toggle-bg {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-16 {
-  width: 4rem;
-}
-
-.w-\[1\/2\] {
-  width: 1/2;
-}
-
-.w-\[1024px\] {
-  width: 1024px;
 }
 
 .min-w-0 {
@@ -4307,6 +4295,11 @@ input:checked + .toggle-bg {
   padding-bottom: 0.375rem;
 }
 
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -4387,13 +4380,12 @@ input:checked + .toggle-bg {
   padding-bottom: 5px;
 }
 
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
 .pb-0 {
   padding-bottom: 0px;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
 }
 
 .pb-2 {
@@ -4422,6 +4414,10 @@ input:checked + .toggle-bg {
 
 .pl-4 {
   padding-left: 1rem;
+}
+
+.pl-40 {
+  padding-left: 10rem;
 }
 
 .pl-6 {
@@ -4498,30 +4494,6 @@ input:checked + .toggle-bg {
 
 .pt-\[0\.37rem\] {
   padding-top: 0.37rem;
-}
-
-.pl-20 {
-  padding-left: 5rem;
-}
-
-.pl-28 {
-  padding-left: 7rem;
-}
-
-.pl-32 {
-  padding-left: 8rem;
-}
-
-.pl-36 {
-  padding-left: 9rem;
-}
-
-.pb-10 {
-  padding-bottom: 2.5rem;
-}
-
-.pl-40 {
-  padding-left: 10rem;
 }
 
 .text-left {
@@ -6220,6 +6192,11 @@ li:hover > button svg {
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-gray-200:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
 .hover\:bg-neutral-100:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(245 245 245 / var(--tw-bg-opacity));
@@ -6233,16 +6210,6 @@ li:hover > button svg {
 .hover\:bg-white:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-gray-400:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-gray-200:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-opacity-5:hover {
@@ -7965,16 +7932,20 @@ li:hover > button svg {
     width: 50%;
   }
 
+  .lg\:w-\[1224px\] {
+    width: 1224px;
+  }
+
   .lg\:w-\[490px\] {
     width: 490px;
   }
 
-  .lg\:w-\[1024px\] {
-    width: 1024px;
+  .lg\:w-full {
+    width: 100%;
   }
 
-  .lg\:w-\[1224px\] {
-    width: 1224px;
+  .lg\:w-\[80\%\] {
+    width: 80%;
   }
 
   .lg\:max-w-2xl {
