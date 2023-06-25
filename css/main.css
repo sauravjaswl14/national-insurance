@@ -5702,6 +5702,10 @@ input:checked + .toggle-bg {
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 /* since nested groupes are not supported we have to use 
      regular css for the nested dropdowns 
   */
@@ -7938,10 +7942,6 @@ li:hover > button svg {
 
   .lg\:w-\[490px\] {
     width: 490px;
-  }
-
-  .lg\:w-full {
-    width: 100%;
   }
 
   .lg\:w-\[80\%\] {

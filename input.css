@@ -7,6 +7,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  overflow-x: hidden;
+}
+
 /* since nested groupes are not supported we have to use 
      regular css for the nested dropdowns 
   */
