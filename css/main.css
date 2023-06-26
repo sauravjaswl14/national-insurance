@@ -2113,10 +2113,6 @@ input:checked + .toggle-bg {
   width: 6px;
 }
 
-.w-\[70\%\] {
-  width: 70%;
-}
-
 .w-\[72px\] {
   width: 72px;
 }
@@ -7645,10 +7641,6 @@ li:hover > button svg {
 
   .md\:w-32 {
     width: 8rem;
-  }
-
-  .md\:w-full {
-    width: 100%;
   }
 
   .md\:max-w-\[720px\] {
