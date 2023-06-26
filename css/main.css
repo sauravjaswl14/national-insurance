@@ -1614,6 +1614,10 @@ input:checked + .toggle-bg {
   margin-top: 200px;
 }
 
+.-ml-3 {
+  margin-left: -0.75rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -3018,6 +3022,12 @@ input:checked + .toggle-bg {
   --tw-space-y-reverse: 0;
   margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+}
+
+.space-x-1 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.25rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .space-y-reverse > :not([hidden]) ~ :not([hidden]) {
@@ -4456,10 +4466,6 @@ input:checked + .toggle-bg {
   padding-right: 1.25rem;
 }
 
-.pr-56 {
-  padding-right: 14rem;
-}
-
 .pr-\[24px\] {
   padding-right: 24px;
 }
@@ -4490,6 +4496,22 @@ input:checked + .toggle-bg {
 
 .pt-\[0\.37rem\] {
   padding-top: 0.37rem;
+}
+
+.pr-4 {
+  padding-right: 1rem;
+}
+
+.pr-6 {
+  padding-right: 1.5rem;
+}
+
+.pr-7 {
+  padding-right: 1.75rem;
+}
+
+.pl-\[3px\] {
+  padding-left: 3px;
 }
 
 .text-left {
@@ -5828,7 +5850,7 @@ li:hover > button svg {
 
 #mySidenav a:nth-child(1) {
   top: 150px;
-  background: url('http://1.bp.blogspot.com/_mtYo_rZcUDI/SQtQjKL39eI/AAAAAAAAADg/ju5WI6FXz5g/s320/729px-Scary_pumpkin_5.svg.png');
+  background-color: #138f82;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -5836,21 +5858,21 @@ li:hover > button svg {
 }
 
 #mySidenav a:nth-child(2) {
-  top: 200px;
+  top: 212px;
   padding: 8px;
-  background-color: #1e90ff;
+  background-color: #138f82;
 }
 
 #mySidenav a:nth-child(3) {
-  top: 252px;
+  top: 260px;
   padding: 8px;
-  background-color: #ff0000;
+  background-color: #138f82;
 }
 
 #mySidenav a:nth-child(4) {
-  top: 300px;
+  top: 308px;
   padding: 8px;
-  background-color: #555;
+  background-color: #138f82;
 }
 
 .hamburger {
