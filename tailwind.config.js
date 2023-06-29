@@ -4,7 +4,7 @@
 module.exports = {
   content: ['./**/*.{html,js}', './node_modules/flowbite/**/*.js'],
   theme: {
-    screens: { sm: '480px', md: '768px', lg: '1024px', xl: '1440px' },
+    screens: { sm: '375px', md: '768px', lg: '1024px', xl: '1440px' },
     extend: {
       colors: {
         cyan: 'hsl(180, 66%, 49%)',
