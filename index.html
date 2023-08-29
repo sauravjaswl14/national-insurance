@@ -33,12 +33,12 @@
   <body class="">
     <nav class="sticky w-full top-0 left-0 right-0 z-50">
       <div
-        class="flex space-x-8 items-center p-8 bg-white shadow-xl md:space-x-24 xl:justify-between"
+        class="flex justify-between items-center p-8 bg-white shadow-xl lg:space-x-12"
       >
-        <div class="flex items-center space-x-6 xl:space-x-12">
-          <img src="./img/logo.jpg" alt="" />
+        <div class="flex items-center justify-between xl:space-x-12">
+          <img src="./img/logo.jpg" class="w-full pr-6 lg:pr-0" alt="" />
 
-          <div class="hidden pl-4 lg:flex lg:space-x-4 lg:items-center">
+          <div class="hidden pl-4 lg:flex lg:space-x-2 lg:items-center">
             <a
               href="#"
               class="font-semibold border-b-2 border-sky-500 border-spacing-0 focus:border-b-2 focus:border-cyan-500 focus:text-cyan-500"
@@ -49,7 +49,7 @@
               <button
                 aria-haspopup="true"
                 aria-controls="menu"
-                class="outline-none focus:outline-none px-1 py-1 bg-white rounded-sm flex items-center min-w-24"
+                class="outline-none focus:outline-none pl-3 py-1 bg-white rounded-sm flex items-center min-w-24"
               >
                 <span class="font-semibold flex-1 pr-2">About</span>
                 <span>
@@ -263,7 +263,7 @@
               <button
                 aria-haspopup="true"
                 aria-controls="menu"
-                class="outline-none focus:outline-none px-3 py-1 bg-white rounded-sm flex items-center min-w-24"
+                class="outline-none focus:outline-none px-2 py-1 bg-white rounded-sm flex items-center min-w-24"
               >
                 <span class="pr-1 font-semibold flex-1">Contact</span>
                 <span>
@@ -323,26 +323,71 @@
           </div>
         </div>
 
-        <div class="flex items-center space-x-4 lg:divide-x-2">
-          <img src="./img/nepal.png" class="w-6 h-6 lg:w-8 lg:h-8" alt="" />
+        <div class="flex space-x-4 items-center">
+          <img src="./img/email.png" class="hidden w-8 h-8 lg:block" alt="" />
+          <div
+            class="hidden py-[2px] px-1 ml-4 mt-7 border-2 rounded-md lg:block"
+          >
+            <div class="relative flex w-full items-center justify-between">
+              <input
+                type="text"
+                placeholder="Enter your search"
+                class="placeholder:text-[#e5e5e5] placeholder:text-xs placeholder:font-bold focus:outline-none border-none"
+              />
+              <img
+                src="./img/search.png"
+                class="absolute right-0 w-5 h-5"
+                alt=""
+              />
+            </div>
+          </div>
 
-          <img
-            src="./img/united-kingdom.png"
-            class="w-6 h-6 lg:pl-6 lg:w-16 lg:h-8"
-            alt=""
-          />
-
-          <div class="lg:hidden">
-            <button class="navbar-burger flex items-center text-blue-600 p-3">
-              <svg
-                class="block h-6 w-6 fill-current"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
+          <div class="flex flex-col space-y-2 items-end">
+            <div class="flex space-x-8 items-center">
+              <img src="./img/email.png" class="w-8 h-8 lg:hidden" alt="" />
+              <div
+                class="flex spacex-x-1 items-center divide-x-2 ml-2 lg:hidden xl:flex"
               >
-                <title>Mobile menu</title>
-                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
-              </svg>
-            </button>
+                <img
+                  src="./img/nepal.png"
+                  class="w-8 h-6 lg:w-8 lg:h-8"
+                  alt=""
+                />
+
+                <img src="./img/india.png" class="w-12 h-8 ml-2 pl-4" alt="" />
+              </div>
+
+              <div class="lg:hidden">
+                <button
+                  class="navbar-burger flex items-center text-blue-600 p-3"
+                >
+                  <svg
+                    class="block h-6 w-6 fill-current"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title>Mobile menu</title>
+                    <path
+                      d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="py-[2px] px-1 border-2 rounded-md lg:hidden">
+              <div class="relative flex w-full items-center justify-between">
+                <input
+                  type="text"
+                  placeholder="Enter your search"
+                  class="placeholder:text-[#e5e5e5] placeholder:text-xs placeholder:font-bold focus:outline-none border-none"
+                />
+                <img
+                  src="./img/search.png"
+                  class="absolute right-0 w-5 h-5"
+                  alt=""
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>

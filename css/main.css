@@ -1179,8 +1179,8 @@ input:checked + .toggle-bg {
   left: 18rem;
 }
 
-.left-\[750px\] {
-  left: 750px;
+.left-\[650px\] {
+  left: 650px;
 }
 
 .left-\[calc\(50\%-1px\)\] {
@@ -1249,18 +1249,6 @@ input:checked + .toggle-bg {
 
 .top-\[13px\] {
   top: 13px;
-}
-
-.top-\[600px\] {
-  top: 600px;
-}
-
-.left-\[650px\] {
-  left: 650px;
-}
-
-.top-\[500px\] {
-  top: 500px;
 }
 
 .top-\[400px\] {
@@ -1590,6 +1578,10 @@ input:checked + .toggle-bg {
 
 .mt-\[200px\] {
   margin-top: 200px;
+}
+
+.ml-4 {
+  margin-left: 1rem;
 }
 
 .box-border {
@@ -2097,6 +2089,14 @@ input:checked + .toggle-bg {
 
 .w-screen {
   width: 100vw;
+}
+
+.w-36 {
+  width: 9rem;
+}
+
+.w-\[156px\] {
+  width: 156px;
 }
 
 .min-w-0 {
@@ -2980,6 +2980,12 @@ input:checked + .toggle-bg {
   --tw-divide-y-reverse: 0;
   border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
   border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
+}
+
+.divide-x-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-x-reverse: 0;
+  border-right-width: calc(2px * var(--tw-divide-x-reverse));
+  border-left-width: calc(2px * calc(1 - var(--tw-divide-x-reverse)));
 }
 
 .divide-y-reverse > :not([hidden]) ~ :not([hidden]) {
@@ -4238,6 +4244,11 @@ input:checked + .toggle-bg {
   padding-bottom: 5px;
 }
 
+.py-\[2px\] {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
 .pb-0 {
   padding-bottom: 0px;
 }
@@ -4340,6 +4351,14 @@ input:checked + .toggle-bg {
 
 .pt-\[0\.37rem\] {
   padding-top: 0.37rem;
+}
+
+.pl-3 {
+  padding-left: 0.75rem;
+}
+
+.pr-5 {
+  padding-right: 1.25rem;
 }
 
 .text-left {
@@ -5748,6 +5767,14 @@ li:hover > button svg {
   background-color: transparent;
 }
 
+.placeholder\:hidden::-moz-placeholder {
+  display: none;
+}
+
+.placeholder\:hidden::placeholder {
+  display: none;
+}
+
 .placeholder\:text-lg::-moz-placeholder {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -5756,6 +5783,34 @@ li:hover > button svg {
 .placeholder\:text-lg::placeholder {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.placeholder\:text-sm::-moz-placeholder {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.placeholder\:text-sm::placeholder {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.placeholder\:text-xs::-moz-placeholder {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.placeholder\:text-xs::placeholder {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.placeholder\:font-bold::-moz-placeholder {
+  font-weight: 700;
+}
+
+.placeholder\:font-bold::placeholder {
+  font-weight: 700;
 }
 
 .placeholder\:text-\[\#4d4d4d\]::-moz-placeholder {
@@ -5786,6 +5841,16 @@ li:hover > button svg {
 .placeholder\:text-\[\#b2becc\]::placeholder {
   --tw-text-opacity: 1;
   color: rgb(178 190 204 / var(--tw-text-opacity));
+}
+
+.placeholder\:text-\[\#e5e5e5\]::-moz-placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(229 229 229 / var(--tw-text-opacity));
+}
+
+.placeholder\:text-\[\#e5e5e5\]::placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(229 229 229 / var(--tw-text-opacity));
 }
 
 .before\:pointer-events-none::before {
@@ -7395,6 +7460,10 @@ li:hover > button svg {
     display: block;
   }
 
+  .md\:hidden {
+    display: none;
+  }
+
   .md\:h-10 {
     height: 2.5rem;
   }
@@ -7481,12 +7550,6 @@ li:hover > button svg {
     --tw-space-x-reverse: 0;
     margin-right: calc(4rem * var(--tw-space-x-reverse));
     margin-left: calc(4rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .md\:space-x-24 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(6rem * var(--tw-space-x-reverse));
-    margin-left: calc(6rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .md\:space-x-4 > :not([hidden]) ~ :not([hidden]) {
@@ -7690,6 +7753,14 @@ li:hover > button svg {
     height: 100vh;
   }
 
+  .lg\:h-12 {
+    height: 3rem;
+  }
+
+  .lg\:h-10 {
+    height: 2.5rem;
+  }
+
   .lg\:min-h-screen {
     min-height: 100vh;
   }
@@ -7716,6 +7787,10 @@ li:hover > button svg {
 
   .lg\:w-\[80\%\] {
     width: 80%;
+  }
+
+  .lg\:w-12 {
+    width: 3rem;
   }
 
   .lg\:max-w-2xl {
@@ -7910,16 +7985,16 @@ li:hover > button svg {
     top: 600px;
   }
 
+  .xl\:flex {
+    display: flex;
+  }
+
   .xl\:max-w-full {
     max-width: 100%;
   }
 
   .xl\:flex-row {
     flex-direction: row;
-  }
-
-  .xl\:justify-between {
-    justify-content: space-between;
   }
 
   .xl\:space-x-12 > :not([hidden]) ~ :not([hidden]) {
